@@ -1,0 +1,99 @@
+[debug] [2021-08-25T18:15:39.640Z] ----------------------------------------------------------------------
+[debug] [2021-08-25T18:15:39.642Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2021-08-25T18:15:39.643Z] CLI Version:   9.16.5
+[debug] [2021-08-25T18:15:39.643Z] Platform:      linux
+[debug] [2021-08-25T18:15:39.643Z] Node Version:  v14.16.0
+[debug] [2021-08-25T18:15:39.643Z] Time:          Wed Aug 25 2021 23:45:39 GMT+0530 (India Standard Time)
+[debug] [2021-08-25T18:15:39.643Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-25T18:15:39.650Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-25T18:15:39.651Z] > authorizing via signed-in user (dubeykumar62@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/manish/Amazon/amzon-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-08-25T18:16:04.758Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-08-25T18:16:05.982Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-08-25T18:16:05.983Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project challenge-acf14 (amazon-challenge) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-08-25T18:17:04.395Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-08-25T18:17:05.355Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-08-25T18:17:05.356Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.0.0","browserURLCompat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-compat.js","packageURL":"https://www.gstatic.com/firebasejs/9.0.0/firebase.tgz"},"live":{"version":"9.0","browserURLCompat":"https://www.gstatic.com/firebasejs/live/9.0/firebase-compat.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.0.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js","functions":"https://www.gstatic.com/firebasejs/9.0.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js","storage":"https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.0.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.0.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js","database":"https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js","app-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js","analytics-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics-compat.js","app-check-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-app-check-compat.js","auth-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js","functions-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-functions-compat.js","messaging-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js","performance-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-performance-compat.js","remote-config-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-remote-config-compat.js","firestore-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js","storage-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-storage-compat.js","database-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js","firestore-lite":"https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-lite.js","messaging-sw":"https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-sw.js","auth-cordova":"https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-cordova.js","auth-react-native":"https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-react-native.js","performance-standalone":"https://www.gstatic.com/firebasejs/9.0.0/firebase-performance-standalone.js","performance-standalone-compat":"https://www.gstatic.com/firebasejs/9.0.0/firebase-performance-standalone-compat.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at /home/manish/Amazon/amzon-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=887234835&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-08-25T18:17:50.148Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"a4ab4b0722a29a05f984","redirect_uri":"http://localhost:9005","state":"887234835"}
+[debug] [2021-08-25T18:17:50.811Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Wed, 25 Aug 2021 18:17:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"a41f34be807053b808c09c2e187f889d\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"96F8:0181:20BBE22:2471446:6126894E"}
+[debug] [2021-08-25T18:17:50.822Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-08-25T18:17:51.888Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-08-25T18:17:51.889Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"dubeyKumar","id":87264749,"node_id":"MDQ6VXNlcjg3MjY0NzQ5","avatar_url":"https://avatars.githubusercontent.com/u/87264749?v=4","gravatar_id":"","url":"https://api.github.com/users/dubeyKumar","html_url":"https://github.com/dubeyKumar","followers_url":"https://api.github.com/users/dubeyKumar/followers","following_url":"https://api.github.com/users/dubeyKumar/following{/other_user}","gists_url":"https://api.github.com/users/dubeyKumar/gists{/gist_id}","starred_url":"https://api.github.com/users/dubeyKumar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dubeyKumar/subscriptions","organizations_url":"https://api.github.com/users/dubeyKumar/orgs","repos_url":"https://api.github.com/users/dubeyKumar/repos","events_url":"https://api.github.com/users/dubeyKumar/events{/privacy}","received_events_url":"https://api.github.com/users/dubeyKumar/received_events","type":"User","site_admin":false,"name":"MANISH KUMAR DUBEY","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"Full stack Developer","twitter_username":null,"public_repos":8,"public_gists":0,"followers":0,"following":0,"created_at":"2021-07-11T10:57:58Z","updated_at":"2021-08-20T07:34:44Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":7166,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as dubeyKumar 
+[info] 
+[debug] [2021-08-25T18:19:00.173Z] >>> [apiv2][query] GET https://api.github.com/repos/amazon-challenge/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:19:01.138Z] <<< [apiv2][status] GET https://api.github.com/repos/amazon-challenge/actions/secrets/public-key 404
+[debug] [2021-08-25T18:19:01.139Z] <<< [apiv2][body] GET https://api.github.com/repos/amazon-challenge/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:19:22.302Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:19:22.756Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:19:22.999Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-08-25T18:19:23.000Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:19:23.142Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:19:23.314Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-08-25T18:19:23.315Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:19:23.776Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-08-25T18:19:23.776Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:24:40.668Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clone.git/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:24:41.779Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clone.git/actions/secrets/public-key 404
+[debug] [2021-08-25T18:24:41.779Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clone.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:24:56.468Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clone.git/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:24:57.970Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clone.git/actions/secrets/public-key 404
+[debug] [2021-08-25T18:24:57.970Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clone.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:32:43.174Z] >>> [apiv2][query] GET https://api.github.com/repos/amazon-clone/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:32:43.911Z] <<< [apiv2][status] GET https://api.github.com/repos/amazon-clone/actions/secrets/public-key 404
+[debug] [2021-08-25T18:32:43.912Z] <<< [apiv2][body] GET https://api.github.com/repos/amazon-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:33:11.026Z] >>> [apiv2][query] GET https://api.github.com/repos/dubeyKumar/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:33:11.820Z] <<< [apiv2][status] GET https://api.github.com/repos/dubeyKumar/actions/secrets/public-key 404
+[debug] [2021-08-25T18:33:11.821Z] <<< [apiv2][body] GET https://api.github.com/repos/dubeyKumar/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:35:48.773Z] >>> [apiv2][query] GET https://api.github.com/repos/amazon-clone/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:35:49.802Z] <<< [apiv2][status] GET https://api.github.com/repos/amazon-clone/actions/secrets/public-key 404
+[debug] [2021-08-25T18:35:49.803Z] <<< [apiv2][body] GET https://api.github.com/repos/amazon-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:35:57.542Z] >>> [apiv2][query] GET https://api.github.com/repos/dubeyKumar/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:35:58.608Z] <<< [apiv2][status] GET https://api.github.com/repos/dubeyKumar/actions/secrets/public-key 404
+[debug] [2021-08-25T18:35:58.609Z] <<< [apiv2][body] GET https://api.github.com/repos/dubeyKumar/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:36:59.158Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clon.git/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:36:59.947Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clon.git/actions/secrets/public-key 404
+[debug] [2021-08-25T18:36:59.947Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/dubeyKumar/amazon-clon.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:37:10.304Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:37:10.894Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2021-08-25T18:37:10.895Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-08-25T18:37:17.805Z] >>> [apiv2][query] GET https://api.github.com/repos/yes/actions/secrets/public-key type=owner
+[debug] [2021-08-25T18:37:18.814Z] <<< [apiv2][status] GET https://api.github.com/repos/yes/actions/secrets/public-key 404
+[debug] [2021-08-25T18:37:18.815Z] <<< [apiv2][body] GET https://api.github.com/repos/yes/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
