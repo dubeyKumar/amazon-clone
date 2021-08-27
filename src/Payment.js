@@ -34,6 +34,7 @@ function Payment() {
     };
     getClientSecret();
   }, [basket]);
+  console.log("THE CLIENT SECRET IS >>>", clientSecret);
 
   const handleSubmit = async (e) => {
     // do all the fancy stripe stuff...
@@ -52,6 +53,10 @@ function Payment() {
         setSucceeded(true);
         setError(null);
         setProcessing(false);
+
+        dispatch({
+          type: "EMPTY_BASKET",
+        });
         history.replaceState("/orders");
       });
   };
