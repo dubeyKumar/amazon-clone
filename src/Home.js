@@ -8,57 +8,58 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://m.media-amazon.com/images/I/71TTlXHzFwL._SX3000_.jpg"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          alt=""
         />
 
         <div className="home__row">
           <Product
-            id="78697445"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback – 6 October 2011"
-            price={29.99}
-            image="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            id="12321341"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            price={11.96}
             rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
           <Product
-            id="38284289"
-            title="Victus by HP Ryzen 7 5800H 16.1-inch(40.9 cm) FHD Gaming Laptop (16GB RAM/512GB SSD/4GB RTX 3050Ti Graphics/Flicker Free Display/144Hz/Win 10/MS Office/Mica Silver/2.48 Kg), 16-e0078AX"
-            price={249.0}
-            image="https://m.media-amazon.com/images/I/713aQxv9KHS._SL1324_.jpg"
+            id="49538094"
+            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.0}
             rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="72388329"
-            title="TIMEX Analog Blue Men Watch TW00ZR262E"
-            price={139.0}
-            image="https://m.media-amazon.com/images/I/71Kx6rgmlRS._UL1500_.jpg"
-            rating={4}
-          />
-          <Product
-            id="3293902"
-            title="MSI Optix G242 23.8 inch IPS Gaming Monitor – Full HD - 144Hz Refresh Rate - 1ms Response time – Adaptive Sync for Esports"
-            price={569.0}
-            image="https://m.media-amazon.com/images/I/61IuIj5gCSL._SL1024_.jpg"
-            rating={6}
-          />
-          <Product
-            id="133800287"
-            title="Metro Women Synthetic Handbag (66-5600)"
-            price={24.14}
-            image="https://m.media-amazon.com/images/I/61OnYWWDl+L._UL1500_.jpg"
+            id="4903850"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            price={199.99}
             rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+          />
+          <Product
+            id="23445930"
+            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            price={98.99}
+            rating={5}
+            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+          />
+          <Product
+            id="3254354345"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            price={598.99}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="328102789"
-            title="(Renewed) Zebronics Zeb-Fame 2.0 Multi Media Speakers with AUX, USB and Volume Control (Black)"
-            price={278.14}
-            image="https://m.media-amazon.com/images/S/gladiator-image-upload-prod/4/A21TJRUUN4KGV/5df0c4473fa24e61040020adbc8465c9._CR0,0,1200,628_SX430_QL70_.jpg"
-            rating={5}
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
       </div>
